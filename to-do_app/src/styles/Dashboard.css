@@ -1,0 +1,17 @@
+.dashboard-container {
+  min-height: 100vh;
+  background-color: #f5f7fa;
+}
+
+.dashboard-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .dashboard-content {
+    padding: 1.5rem 1rem;
+  }
+} 
